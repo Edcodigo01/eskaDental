@@ -1,0 +1,63 @@
+.acordeon .content{
+    overflow: hidden;
+    height: 0;
+    transition-duration: 0.6s;
+}
+
+.acordeon .content.show{
+    overflow: hidden;
+    height: auto;
+}
+
+.acordeon .content{
+    /* background: rgb(244, 244, 244); */
+}
+
+.acordeon .content a:hover{
+    background: var(--red-v-x-l-2);
+    color: white;
+    text-shadow: 1px 1px 2px grey;
+    cursor: pointer;
+}
+
+.acordeon a{
+    white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+}
+
+.acordeon a .text{
+    white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 76% !important;
+      float:left;
+    /* background: green; */
+
+}
+.acordeon a .container-div-circle{
+    white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      width: 24% !important;
+      float:right;
+    /* background: red; */
+
+}
+
+.acordeon a .container-div-circle .div-circle{
+    max-width: 75%;
+    white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+
+}
+.div-circle{
+    background: var(--gold);
+    color: white;
+    font-size: 90%;
+    padding: 1px 4px 0px 4px;
+    border-radius: 10px;
+    max-width: 100%;
+    float-right
+}

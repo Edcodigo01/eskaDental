@@ -1,0 +1,35 @@
+.form-line .form-control{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    padding: 4px;
+    height: 30px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    
+    /* ----------------------- */
+    border-bottom: 2px solid var(--red-v);
+    font-family: 'Comfortaa-l';
+
+}
+
+.form-line .form-group{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.form-line label{
+    color:grey;
+   margin: 0;
+   /* position: absolute; */
+   transition-duration: 0.3s;
+}
+
+.form-line label:hover{
+    cursor: pointer;
+}

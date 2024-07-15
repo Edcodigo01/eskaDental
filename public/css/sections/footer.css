@@ -1,0 +1,50 @@
+#footer{
+    background: var(--grey);
+    height: 100%;
+}
+
+#logo-footer{
+    width: 50px;
+}
+
+#letras-logo-footer{
+    width: 200px;
+}
+
+#footer a{
+    color: var(--gold-l);
+    font-size: 18px;
+    font-family: 'Comfortaa-r';
+}
+
+#footer ul{
+    line-height: 2;
+}
+
+.btn-sap{
+    color:var(--gold);
+    font-size: 12px;
+    font-family: 'Comfortaa-r';/
+}
+
+.btn-sap:hover{
+    text-decoration: none;
+    color: gold;
+    font-weight: 600;
+}
+
+@media (max-width: 576px) {
+
+    #footer a{
+        font-size: 16px !important;
+
+    }
+
+    #logo-footer{
+        width: 40px;
+    }
+
+    #letras-logo-footer{
+        width: 160px;
+    }
+}

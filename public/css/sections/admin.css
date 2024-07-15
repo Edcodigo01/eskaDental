@@ -1,0 +1,20 @@
+
+
+.input-group-text{
+    font-family: 'Comfortaa-b';
+    background: var(--red-v-x-l) !important;
+    font-size: 14px;
+    border-color: var(--grey-x-l);
+    color:var(--white) !important;
+}
+
+.table{
+    font-family: 'Comfortaa-r';
+    box-shadow: 3px 3px 2px rgb(224, 224, 224);
+}
+
+table td,
+table th
+{
+  border: 1px solid var(--grey-x-l) !important;
+}

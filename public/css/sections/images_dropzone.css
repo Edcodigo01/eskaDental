@@ -1,0 +1,41 @@
+.dropzone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: dotted var(--gold);
+    
+}
+
+.container_img_load{
+    width: 100%;
+    height:200px;
+    position: relative;
+    border: solid 4px rgb(245, 242, 242);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.container_img_load .delete_image{
+    position:absolute;right:10px;top:10px;
+}
+
+.container_img_load img{
+width:100%;height:100%;object-fit:cover;
+}
+
+.container_img_load .text-img-p{
+    position:absolute;
+    bottom:0;left:0;
+    width:100%;
+    display: flex;
+    align-items: center;
+    /* background: red; */
+}
+
+.container_img_load .container_set_image_p{
+    position:absolute;bottom:3px;width:100%;display:flex;justify-content:center;
+}
+
+.cardErrorsImages{
+    border: 1px solid red;
+}

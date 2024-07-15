@@ -1,0 +1,7 @@
+/* @media (max-width: 400px){ */
+   .g-recaptcha {
+   transform:scale(0.75);
+   transform-origin:5 5;
+   margin: auto;
+   }
+/* } */

@@ -1,0 +1,241 @@
+#nav-sup{
+    height: 25px;
+    background: white;
+}
+#nav-sup a{
+    font-size: 16px;
+    color: var(--red-v) !important;
+    cursor: pointer;
+}
+#nav-sup a:hover{
+    color: var(--red-v) !important;
+    cursor: pointer;
+}
+.nav1{
+
+
+    border-top: 1px rgb(204, 204, 204) solid;
+    height: 90px;
+    /* margin-left: 5%; */
+    /* margin-right:5%; */
+
+    /* border-top: 2px gold solid; */
+    border-bottom: 1px rgb(204, 204, 204) solid;
+    box-shadow: 4px 4px 4px rgba(154, 152, 152, 0.41);
+}
+.nav1 .btn{
+    padding: 2px 7px 2px 7px;
+    font-size: 18px;
+}
+
+.nav1 .container2{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav1 .btns-social{
+    width: 100%;
+}
+
+.nav1 .btn{
+    margin-left: 10px;
+}
+
+.nav2{
+    z-index: 20;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    background:var(--bg-p);
+    border-bottom: 1px var(--red-v-l) solid;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 4px 4px 4px rgba(154, 152, 152, 0.41);
+}
+
+.nav2 .section1{
+    height: 100%;
+    width: 16%;
+    position: relative;
+    /* background: red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.nav2 .section2{
+    height: 100%;
+    width: 84%;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2 .section2 .dropdown-menu a{
+    color: var(--red-v-x-l) ;
+}
+
+.nav2 .section2 .dropdown-menu a.active{
+    color: var(--gold);
+    background: white;
+}
+
+.nav2 .section2 .dropdown-menu a:hover{
+    color: var(--gold-l);
+}
+.dropdown-menu-navbar a{
+    color: var(--red-v-x-l);
+    padding: 1px 25px 1px 25px;
+    margin: 0;
+    display: block;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.dropdown-menu-navbar a.active{
+    color: var(--gold);
+    background: white;
+}
+
+.dropdown-menu-navbar a:hover{
+    color: var(--gold-l);
+}
+
+.nav2 .section2 a{
+    color: var(--white);
+    font-family: 'Comfortaa-b';
+    font-size: 23px;
+    margin-right: 20px;
+    text-decoration: none;
+    /* text-shadow: 2px 2px 2px rgb(222, 222, 222); */
+}
+
+.nav2 .section2 a.active{
+    color: var(--gold-l);
+}
+
+.nav2 .section2 a:hover{
+    color: var(--gold-x-l);
+}
+
+#nav-mobile-extra{
+    height: 50px;
+    position: fixed;
+    z-index: 18;
+    left: 0;
+    width: 100%;
+    transition-duration: 0.6s;
+    top: -51px;
+    display: flex;
+    align-items: center;
+    display: none;
+    box-shadow: 4px 4px 4px rgba(154, 152, 152, 0.41);
+}
+
+#nav-mobile-extra a{
+    /* display: block; */
+    font-size: 27px;
+    color: white;
+
+}
+
+#nav-mobile-extra .dropdown-menu-navbar a{
+    /* display: block; */
+    font-size: 24px;
+    color: var(--red-v-x-l);
+}
+
+#nav-mobile-extra .dropdown-menu-navbar a.active{
+    /* display: block; */
+    color: var(--gold) !important;
+}
+
+#nav-mobile-extra .dropdown-menu-navbar a:hover{
+    /* display: block; */
+    color: var(--gold-l) !important;
+}
+#nav-mobile-extra a:hover{
+    color: var(--gold-l) !important;
+}
+#nav-mobile-extra a:active{
+    color: var(--grey-x-l) !important;
+}
+#nav-mobile-extra.show{
+    top: 0px;
+}
+
+#logo-g{
+    /* max-width: 100%; */
+    max-height: 75%;
+}
+
+#letras-logo-g{
+    max-height: 50%;
+    margin-left: 10px;
+}
+
+#logo-nav-2{
+    width:40px;
+}
+#letras-nav-2{
+    width:160px;
+}
+
+.btn-main{
+    margin-top: 4px;
+    padding: 3px 7px 1px 7px !important;
+    font-size: 18px;
+}
+/* #margin_navbar{
+    height: 160px;
+} */
+
+/* -----reponsive------ */
+
+/* lg */
+@media (max-width: 1200px) {
+    #letras-nav-2{
+        display: none !important;
+    }
+}
+/* md */
+@media (max-width: 992px) {
+    .md{
+        display: none;
+    }
+    .nav2 .section2 a{
+        font-size: 20px;
+    }
+}
+/* sm */
+@media (max-width: 768px) {
+    #nav-sup a{
+        font-size: 27px;
+        color: white !important;
+    }
+    #nav-sup a:hover{
+        color: var(--gold) !important;
+    }
+    #nav-sup{
+        height: 40px;
+        background: var(--bg-p)
+    }
+    #nav-mobile-extra{
+        display: block;
+    }
+}
+/* xs */
+@media (max-width: 576px) {
+     .nav1{
+        height: 70px;
+    }
+
+}
+
+@media (max-width: 400px) {
+     .nav1{
+        height: 55px;
+    }
+}

@@ -1,0 +1,35 @@
+.img-circle-nosotros{
+    height:280px;width:280px;object-fit:cover;border:solid 4px var(--gold);border-radius:100%;margin:auto
+}
+.paralax_nostros h2{
+        text-shadow: 2px 2px 2px rgb(70, 70, 70),-1px -1px 1px rgb(70, 70, 70);
+}
+.paralax_nostros h5{
+    text-shadow: 2px 2px 2px rgb(85, 85, 85),-1px -1px 2px black,0px 0px 20px grey;
+}
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+    .img-circle-nosotros{
+        height:220px;width:220px;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-circle-nosotros{
+        height:180px;width:180px;
+    }
+}
+@media (max-width: 576px) {
+    .paralax_nostros h5{
+        font-size: 17px;
+    }
+}
